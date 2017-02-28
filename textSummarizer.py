@@ -35,7 +35,7 @@ def readFileAsString(path):
                 for cell in row.cells:
                     for paragraph in cell.paragraphs:
                        fullText += "\n" + paragraph.text    
-        return '\n' + fullText 
+        return '\n' + fullText  
 
 
 #read files from directory
