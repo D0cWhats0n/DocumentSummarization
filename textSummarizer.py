@@ -29,7 +29,7 @@ def readFileAsString(path):
         document = Document(path)
         fullText = ""
         for para in document.paragraphs:
-            fullText += para.text
+            fullText += "\n" + para.text
         for table in document.tables:
             for row in table.rows:
                 for cell in row.cells:
